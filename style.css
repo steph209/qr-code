@@ -1,5 +1,17 @@
+@font-face {
+  font-family: "Outfit";
+  src: url(assets/fonts/outfit/OFL.txt);
 
+  font-style: normal;
+  font-weight: 400;
+}
 
+/* =============================================================================
+  #TYPOGRAPHY 
+============================================================================= */
+body {
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
 
 /* =============================================================================
   #GENERAL
