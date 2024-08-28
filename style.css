@@ -16,6 +16,8 @@ body {
 h2 {
   text-align: center;
 
+  font-size: 24px;
+
   font-weight: 700;
 }
 
@@ -56,18 +58,32 @@ body {
 
   display: flex;
   justify-content: center;
-  align-content: center;
 }
 
 main {
   background-color: white;
 
   max-width: 600px;
-  min-height: 300px;
+  min-height: 600px;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
 
   border-radius: 30px;
+}
+
+.main-header {
+  /* font-size: 18px; */
+  padding: 10px;
+
+  color: hsl(218, 44%, 22%);
+}
+
+.description {
+  text-align: center;
+
+  font-size: 15px;
+
+  color: hsl(216, 15%, 48%);
 }
