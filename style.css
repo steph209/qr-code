@@ -13,6 +13,27 @@ body {
   font-family: "Outfit", Arial, Helvetica, sans-serif;
 }
 
+
 /* =============================================================================
   #GENERAL
 ============================================================================= */
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+main {
+  background-color: white;
+
+  max-width: 600px;
+  min-height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border-radius: 40px;
+}
+
+/* img {
+  object-fit: contain;
+} */
