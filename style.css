@@ -43,7 +43,7 @@ main {
   background-color: white;
 
   width: 600px;
-  height: 600px;
+  height: 540px;
   margin: 10px;
 
   border-radius: 20px;
@@ -68,16 +68,49 @@ picture {
   }
 
 .main-header {
-  padding: 10px 20px;
+  padding: 10px 25px;
 
   color: hsl(218, 44%, 22%);
 }
 
 .description {
   text-align: center;
-  padding: 10px 20px;
+  line-height: 1.5;
+  padding: 5px 30px;
 
   /* font-size: 15px; */
 
   color: hsl(216, 15%, 48%);
+}
+
+/* =============================================================================
+#MEDIASCREENS
+============================================================================= */
+
+@media  screen and (min-width: 450px) {
+  main {
+    width: 70%;
+    margin: 20px
+  }
+}
+
+@media  screen and (min-width: 780px) {
+  main {
+    width: 50%;
+    margin: 20px
+  }
+}
+
+@media  screen and (min-width: 1040px) {
+  main {
+    width: 30%;
+    margin: 20px
+  }
+}
+
+@media  screen and (min-width: 1200px) {
+  main {
+    width: 25%;
+    margin: 20px
+  }
 }
